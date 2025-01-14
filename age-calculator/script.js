@@ -1,13 +1,12 @@
-// Set the max date to today's date
+// max date today karne ke liye
 const userInput = document.getElementById("date");
 userInput.max = new Date().toISOString().split("T")[0];
 
-// Attach event listener to the button
-document
+// to attach event listener
   .getElementById("calculate-btn")
   .addEventListener("click", calculateAge);
 
-// Function to calculate the age
+
 function calculateAge() {
   const result = document.getElementById("result");
 
