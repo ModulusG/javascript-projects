@@ -26,7 +26,7 @@ function generateQuote() {
   const quoteElement = document.getElementById("quote");
   quoteElement.textContent = quotes[randomIndex];
 
-  // Adding a small animation to the quote when it changes
+//new
   quoteElement.style.transform = "scale(1.1)";
   setTimeout(() => {
     quoteElement.style.transform = "scale(1)";
